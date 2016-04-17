@@ -1,0 +1,33 @@
+{
+  "name": "socket.io-scaling",
+  "version": "1.0.0",
+  "description": "socket.io scaling example",
+  "main": "socket.io-server-master.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket.io",
+    "scaling"
+  ],
+  "author": {
+    "name": "Vadim Petrov"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/imposibrus/socket.io-scaling",
+  "bugs": {
+    "url": "https://github.com/imposibrus/socket.io-scaling/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imposibrus/socket.io-scaling.git"
+  },
+  "engines": {
+    "node": ">=0.10.25"
+  },
+  "dependencies": {
+    "express": "4.13.4",
+    "socket.io": "1.4.5",
+    "socket.io-redis": "1.0.0"
+  }
+}
